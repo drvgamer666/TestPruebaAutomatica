@@ -17,17 +17,17 @@ public class CompleteForm implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue("Juan").into(UtestForm.ImputName),
-                Enter.theValue("Perez").into(UtestForm.ImputLastName),
-                Enter.theValue("mmodrvgamer@gmail.com").into(UtestForm.ImputEmail),
+        actor.attemptsTo(Enter.theValue("David").into(UtestForm.ImputName),
+                Enter.theValue("Reinoso").into(UtestForm.ImputLastName),
+                Enter.theValue("davidreinoso25@gmail.com").into(UtestForm.ImputEmail),
                 Click.on(UtestForm.Month),
                 Click.on(UtestForm.Day),
                 Click.on(UtestForm.Year),
                 Click.on(UtestForm.NextLocation),
                 Click.on(UtestForm.NextDivices),
                 Click.on(UtestForm.LastStep),
-                Enter.theValue("Prueba2020=").into(UtestForm.Password),
-                Enter.theValue("Prueba2020=").into(UtestForm.ConfirmPassword),
+                Enter.theValue("Prueba2022=").into(UtestForm.Password),
+                Enter.theValue("Prueba2022=").into(UtestForm.ConfirmPassword),
                 Click.on(UtestForm.TermsOfUse),
                 Click.on(UtestForm.PrivacyPolicy),
                 Click.on(UtestForm.CompleteSetUp)
