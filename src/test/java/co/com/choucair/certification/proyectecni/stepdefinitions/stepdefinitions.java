@@ -28,7 +28,7 @@ public class stepdefinitions {
     }
 
     @Then("^Complete the setup$")
-    public void complete_the_setup(String question) {
+    public void complete_the_setup() {
 
     }
 

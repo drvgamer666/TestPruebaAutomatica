@@ -19,7 +19,7 @@ public class CompleteForm implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Enter.theValue("David").into(UtestForm.ImputName),
                 Enter.theValue("Reinoso").into(UtestForm.ImputLastName),
-                Enter.theValue("davidreinoso25@gmail.com").into(UtestForm.ImputEmail),
+                Enter.theValue("davidreinoso252@gmail.com").into(UtestForm.ImputEmail),
                 Click.on(UtestForm.Month),
                 Click.on(UtestForm.Day),
                 Click.on(UtestForm.Year),
